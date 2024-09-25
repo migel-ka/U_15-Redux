@@ -1,0 +1,89 @@
+.main {
+    display: flex;
+    justify-content: space-between
+}
+.ToDo {
+    border: 1px solid #F27405;
+    border-radius: 15px;
+    width: 30%;
+    padding: 15px;
+    background-color: rgb(2, 115, 94, 0.4);
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column
+}
+.ul {
+    border: 1px solid #F27405;
+    border-radius: 15px;
+    width: 70%;
+    padding: 15px;
+    background-color: rgb(2, 115, 94, 0.4);
+    list-style-type: none;
+}
+
+.li {
+    background-color: rgb(115, 23, 2, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #F27405;
+}
+input {
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 4px;
+    background-color: #03A678;
+    color: #014040;
+    height: 40px;
+}
+
+.btn:hover {
+    background-color:#731702;
+    color: #F27405;
+}
+
+.none_p {
+
+    font-size: 25px;
+    color: beige;
+}
+p {
+    padding-left: 5%;
+}
+
+.none {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.img {
+    width: 250px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+i {
+    padding-left: 10px;
+}
+@media (max-width: 820px) {
+    .main {
+        flex-direction: column
+    }  
+    .ToDo {
+        width: 100%;
+    }
+    .ul {
+        width: 100%;
+        margin-top: 15px;
+    }
+}
